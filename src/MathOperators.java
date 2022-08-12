@@ -5,7 +5,7 @@ public class MathOperators {
         int sum = x + y;
         int sub = x - y;
         int multi = x * y;
-        double div = x / (double)y;  //konwersja typu - rozszerzająca
+        double div = x / (double)y;  //konwersja typu : rozszerzająca
         int mod = x % y;
 
         System.out.println("Liczba x = "+ x + " natomiast y = " + y);
