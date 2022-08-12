@@ -39,9 +39,10 @@ public class MathOperators {
         System.out.println("Czy X jest różne od Y? --> -" + x + " != " + y);
         System.out.println(x != y);
 
-        System.out.println("Sprawdzenie typu obiektu za pomocą instanceof:  boolean instance = \"Kasia\" instanceof java.lang.String;" );
-        boolean instance = "Kasia" instanceof java.lang.String;
-        System.out.println(instance); // "Kasia" to typ String
+        System.out.println("Sprawdzenie typu obiektu za pomocą instanceof:  boolean instance = \"Monika\" instanceof " +
+                "java.lang.String;" );
+        boolean instance = "Monika" instanceof java.lang.String;
+        System.out.println(instance); // "Monika" to typ String
     }
 }
 
