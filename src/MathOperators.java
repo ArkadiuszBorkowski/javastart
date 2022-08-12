@@ -41,7 +41,7 @@ public class MathOperators {
 
         System.out.println("Sprawdzenie typu obiektu za pomocą instanceof:  boolean instance = \"Kasia\" instanceof java.lang.String;" );
         boolean instance = "Kasia" instanceof java.lang.String;
-        System.out.println(instance); // "Kasia" jest typu String
+        System.out.println(instance); // "Kasia" to typ String
     }
 }
 
