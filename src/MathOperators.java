@@ -14,6 +14,24 @@ public class MathOperators {
         System.out.println("Wynik mnożenia x * y = " + multi);
         System.out.println("Wynik dzielenia x / y = " + div);
         System.out.println("Reszta z dzielenia x przez y = " + mod);
+
+
+        x += 5;
+        System.out.println("\"operatory skrócone: x += 5\" :  x = " + x);
+
+        x *= 3;
+        System.out.println("\"operatory skrócone: x *= 3\" :  x = " + x);
+
+        x /= 5;
+        System.out.println("\"operatory skrócone: x /= 5\" :  x = " + x);
+
+        x -= 2;
+        System.out.println("\"operatory skrócone: x -= 2\" :  x = " + x);
+
+        x %= 4;
+        System.out.println("\"operatory skrócone: x %= 4\" :  x = " + x);
     }
+
+
 }
 
