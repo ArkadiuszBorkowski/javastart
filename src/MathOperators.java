@@ -13,9 +13,9 @@ public class MathOperators {
         System.out.println("Wynik odejmowania x - y = " + sub);
         System.out.println("Wynik mnożenia x * y = " + multi);
         System.out.println("Wynik dzielenia x / y = " + div);
-        System.out.println("Reszta z dzielenia x przez y = " + mod);
+        System.out.println("Reszta z dzielenia x przez y = " + mod + "\n"); // \n - nowa linia
 
-
+        //operatory skróćone
         x += 5;
         System.out.println("\"operatory skrócone: x += 5\" :  x = " + x);
 
@@ -29,9 +29,19 @@ public class MathOperators {
         System.out.println("\"operatory skrócone: x -= 2\" :  x = " + x);
 
         x %= 4;
-        System.out.println("\"operatory skrócone: x %= 4\" :  x = " + x);
+        System.out.println("\"operatory skrócone: x %= 4\" :  x = " + x + "\n"); // \n - nowa linia
+
+
+        //operatory porównania
+        System.out.println("Czy X jest większę od Y? ---> " + x + " > " + y);
+        System.out.println(x > y);
+
+        System.out.println("Czy X jest różne od Y? --> -" + x + " != " + y);
+        System.out.println(x != y);
+
+        System.out.println("Sprawdzenie typu obiektu za pomocą instanceof:  boolean instance = \"Kasia\" instanceof java.lang.String;" );
+        boolean instance = "Kasia" instanceof java.lang.String;
+        System.out.println(instance); // "Kasia" jest typu String
     }
-
-
 }
 
