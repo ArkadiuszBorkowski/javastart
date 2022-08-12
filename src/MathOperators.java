@@ -61,6 +61,8 @@ public class MathOperators {
 
         System.out.print("Warunek złożony !(x<10 && y<10) ");
         System.out.println(!(x < 10 && y < 10));
+
+        //
     }
 }
 
