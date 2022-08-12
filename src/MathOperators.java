@@ -5,10 +5,10 @@ public class MathOperators {
         int sum = x + y;
         int sub = x - y;
         int multi = x * y;
-        double div = x / (double)y;  //konwersja typu : rozszerzająca
+        double div = x / (double) y;  //konwersja typu : rozszerzająca
         int mod = x % y;
 
-        System.out.println("Liczba x = "+ x + " natomiast y = " + y);
+        System.out.println("Liczba x = " + x + " natomiast y = " + y);
         System.out.println("Wynik dodanania x + y = " + sum);
         System.out.println("Wynik odejmowania x - y = " + sub);
         System.out.println("Wynik mnożenia x * y = " + multi);
@@ -40,9 +40,27 @@ public class MathOperators {
         System.out.println(x != y);
 
         System.out.println("Sprawdzenie typu obiektu za pomocą instanceof:  boolean instance = \"Monika\" instanceof " +
-                "java.lang.String;" );
+                "java.lang.String;");
         boolean instance = "Monika" instanceof java.lang.String;
-        System.out.println(instance); // "Monika" to typ String
+        System.out.println(instance + "\n"); // "Monika" to typ String
+
+        //operatory logiczne
+        boolean logic = true;
+        System.out.print("x<10 && y<11? ");
+        System.out.println(x < 10 && y < 11);
+
+        System.out.print("Operator koniunkcji sprawdza czy każdy warunek spełniony:x<10 && y<10? ");
+        System.out.println(x < 10 && y < 10);
+
+        System.out.print("Operator alternatywy sprawdcza czy co najmniej jeden warunek spełniony: x<10 || y<10? ");
+        System.out.println(x < 10 || y < 10);
+
+        System.out.print(logic);
+        System.out.print(" , !logic = ");
+        System.out.println(!logic);
+
+        System.out.print("Warunek złożony !(x<10 && y<10) ");
+        System.out.println(!(x < 10 && y < 10));
     }
 }
 
