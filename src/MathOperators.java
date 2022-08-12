@@ -1,12 +1,12 @@
 public class MathOperators {
     public static void main(String[] args) {
-        double x = 10;
+        int x = 10;
         int y = 4;
-        double sum = x + y;
-        double sub = x - y;
-        double multi = x * y;
-        double div = x / y;
-        double mod = x % y;
+        int sum = x + y;
+        int sub = x - y;
+        int multi = x * y;
+        double div = x / (double)y;  //konwersja typu - rozszerzająca
+        int mod = x % y;
 
         System.out.println("Liczba x = "+ x + " natomiast y = " + y);
         System.out.println("Wynik dodanania x + y = " + sum);
